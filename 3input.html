@@ -1,0 +1,73 @@
+<!-- 点击input文本框的时候内容不会清空 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title> </title>
+    <style>
+        /*
+             SPACING SYSTEM (px)
+             2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+             
+             FONT SIZE SYSTEM (px)
+             10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+             */
+
+        /* 
+             MAIN COLOR: #087f5b
+             GREY COLOR: #343a40
+             */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            color: #343a40;
+        }
+        div{
+            width: 420px;
+            padding: 20px;
+            margin: 50px auto;
+            box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+        }
+        .input{
+            height: 30px;
+            width: 300px;
+            border: none;
+            font-size: 28px;
+            font-weight: 700;
+            text-transform: capitalize;
+            color:gray ;
+        }
+        .input:focus{
+            outline: none;
+        }
+        .button {
+            height: 50px;
+            width: 70px;
+            background-color: purple;
+            border: none;
+            color: blanchedalmond;
+            font-size: 28px;
+            font-weight: 700;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="text" value="enter your name" class="input">
+        <button class="button">go</button>
+    </div>
+</body>
