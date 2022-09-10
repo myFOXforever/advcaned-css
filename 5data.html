@@ -1,0 +1,139 @@
+<!-- 右边的文本竖直居中没做到 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googlefonts.cn/css?family=Indie+Flower|Playfair+Display|Shadows+Into+Light"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title> </title>
+    <style>
+        /*
+             SPACING SYSTEM (px)
+             2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+             
+             FONT SIZE SYSTEM (px)
+             10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+             */
+
+        /* 
+             MAIN COLOR: #087f5b
+             GREY COLOR: #343a40
+             */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            color: #343a40;
+        }
+
+        .data {
+            width: 900px;
+            margin: 100px auto;
+            display: grid;
+            color: #fff;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        h1 {
+            font-size: 44px;
+            padding-bottom: 30px;
+            grid-column: 1/-1;
+        }
+
+        .data-section {
+            background-color: rgb(19, 73, 108);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 50px;
+            padding: 30px;
+        }
+
+        .selfdata h3 {
+            font-size: 28px;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+
+        .selfdata p {
+            font-size: 14px;
+        }
+
+        .icon {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .icon h3 {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 100px 0;
+            background-color: rgb(36, 100, 146);
+        }
+
+        .icon h3:first-child {
+            background-color: rgb(19, 73, 108);
+        }
+
+        .icon h3:last-child {
+            background-color: rgb(19, 73, 108);
+        }
+
+        /* Indie+Flower|Playfair+Display|Shadows+Into+Light */
+        .first {
+            font-family:" Indie Flower";
+        }
+        .second ,.third{ 
+            font-family: "Playfair Display";
+        }
+        .fifth{ 
+            font-family: "Shadows Into Light";
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="data">
+        <div class="data-section">
+            <h1>
+                Join the <br> party.
+            </h1>
+            <div class="selfdata">
+                <h3>100 million</h3>
+                <p>email every day</p>
+            </div>
+            <div class="selfdata">
+                <h3>10 years</h3>
+                <p>experice</p>
+            </div>
+            <div class="selfdata">
+                <h3>175,000</h3>
+                <p>user in 160 countries</p>
+            </div>
+            <div class="selfdata">
+                <h3>$0</h3>
+                <p>to get started</p>
+            </div>
+        </div>
+        <div class="icon">
+            <h3 class="first">greempeace</h3>
+            <h3 class="second">porcelanosa</h3>
+            <h3 class="third">amnesiy </h3>
+            <h3 class="fifth">mpg</h3>
+        </div>
+    </div>
+</body>
