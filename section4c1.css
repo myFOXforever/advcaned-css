@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border-top:10px solid black ; */
+    font-family: sans-serif;
+    /* line-height: 1.4; */
+}
+
+.product {
+    position: relative;
+    border: 4px solid black;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.product-title {
+    height: 60px;
+    line-height: 60px;
+    /* 也可以加内边距padding */
+    /* paddin:15px; */
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(240, 237, 237);
+    text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.shipping {
+    float: right;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+    margin-top: 12px;
+}
+
+.reading {
+    font-size: 22px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.more-info:link,
+.more-info:visited {
+    color: black;
+    font-weight: bold;
+}
+
+.more-info:hover,
+.more-info:active {
+    text-decoration: none;
+}
+
+.details-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.colorheader{
+    margin: 30px 0px;
+}
+.color{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.color:last-child{
+    margin-right: 0px;
+}
+.color1{
+    background-color: black;
+
+}
+.color2{
+    background-color: blue;
+}
+.color3{
+   background-color: red; 
+}
+.color4{
+    background-color: yellow;
+}
+.color5{
+    background-color: green;
+}
+.color6{
+    background-color: brown;
+}
+.details-list {
+    font-size: 22px;
+    list-style: square;
+    padding-left: 22px;
+}
+.details-list li{
+    margin-bottom: 8px;
+}
+.add-cart {
+    height: 80px;
+    width: 100%;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-top: 4px solid #000;
+}
+
+.add-cart:hover {
+    background-color: #fff;
+    color: black;
+}
+.sale{
+    position:absolute;
+    left: -40px;
+    top: -20px;
+    background-color: red;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+.box{
+    float: left;
+    width: 400px;
+}
+.left{
+    width: 250px;
+    margin-right: 80px;
+}
+.center{
+    width: 350px;
+    margin-right: 50px;
+}
+.right{
+    
+}

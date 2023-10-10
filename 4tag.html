@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title> </title>
+    <style>
+        /*
+             SPACING SYSTEM (px)
+             2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+             
+             FONT SIZE SYSTEM (px)
+             10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+             */
+
+        /* 
+             MAIN COLOR: #087f5b
+             GREY COLOR: #343a40
+             */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            color: #343a40;
+        }
+
+        .tag {
+            width: 900px;
+            box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .icon {
+            width: 32px;
+            height: 32px;
+        }
+
+        .headline {
+            font-size: 44px;
+            font-weight: 300;
+        }
+
+        .source {
+            width: 100%;
+            padding-left: 380px;
+        }
+
+        .link {
+            font-size: 24px;
+            text-transform: capitalize;
+            color: black;
+            display: block;
+            text-decoration: none;
+            float: left;
+            width: 80px;
+            border-bottom: 4px solid #087f5b;
+        }
+
+        .icon {
+            float: left;
+        }
+
+        .tag-li {
+            display: flex;
+            gap: 50px;
+            margin-left: 50px;
+        }
+
+        .tag-li li {
+            text-transform: capitalize;
+            background-color: rgb(170, 197, 222);
+            width: 110px;
+            list-style: none;
+            height: 40px;
+            border-radius: 5px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+
+        .colortag {
+            display: flex;
+            margin-left: 350px;
+        }
+
+        .colortag li {
+            height: 50px;
+            width: 50px;
+            /* background-color: #087f5b; */
+            list-style: none;
+            border-radius: 50px;
+            margin-left: -20px;
+            border:5px solid white;
+        }
+
+        .color-brown {
+            background-color: brown;
+        }
+        .color-black {
+            background-color: black;
+        }
+
+        .color-green {
+            background-color: green;
+        }
+
+        .color-skyblue {
+            background-color: skyblue;
+        }
+
+        .color-littleblue {
+            background-color: rgb(95,140,185);
+        }
+
+        .color-blue {
+            background-color: blue;
+        }
+
+        .color-red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tag">
+        <h3 class="headline"> Calm Landing page</h3>
+        <p class="data">1 year, 12months ago</p>
+        <div class="source">
+            <a href="" class="link">source</a>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
+        </div>
+        <ul class="tag-li">
+            <li>awards</li>
+            <li>footer</li>
+            <li>hero header</li>
+            <li>ratings</li>
+            <li>testimonials</li>
+        </ul>
+        <ul class="colortag">
+            <li class="color-brown"></li>
+            <li class="color-black"></li>
+            <li class="color-green"></li>
+            <li class="color-skyblue"></li>
+            <li class="color-black"></li>
+            <li class="color-littleblue"></li>
+            <li class="color-blue"></li>
+            <li class="color-red"></li>
+        </ul>
+    </div>
+</body>
